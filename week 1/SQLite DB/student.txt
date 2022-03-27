@@ -1,0 +1,59 @@
+// Create table command is used to create a table in the DB with the specified name by user
+
+CREATE TABLE Students (
+	Name text,
+    Age integer,
+    Mobile_No integer, 
+  	Registration_No Integer PRIMARY KEY AUTOINCREMENT,
+    Year_of_Batch  integer
+);
+
+// Insert into command is used to insert the data into the tables
+// Values command is used to enter the given data into the specific field
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Aakash',19,9894503439,2020);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Ram',20,9898645210,2021);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Sam',18,9876543291,2019);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Micheal',19,9564789123,2020);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Levi',20,9789123654,2021);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Eren',21,9321486570,2019);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Armin',18,9486215731,2020);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Annie',20,9197845632,2012);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Asha',19,8456971238,2018);
+
+INSERT into students (name,age,mobile_no,year_of_batch)
+VALUES ('Anu',22,7891236541,2019);
+
+// This Command is used to Dispaly the data of the student who are from 2020 batch
+
+select *FROM Students WHere Year_of_batch = 2020;
+
+// Update command is used to update the Specific Record from the user 
+
+
+UPDATE Students SET name= 'Jean' WHERE registration_no = 2;
+UPDATE Students set mobile_no = 9894502439 WHERE name = 'Levi';
+UPDATE Students set year_of_batch = 2019 WHERE year_of_batch = 2012;
+
+// Select command is used to dispaly all records in the specific table
+ 
+SELECT * FROM Students;
+
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="162dp"
+        android:layout_margin="2mm"
+        android:src="@drawable/image"></ImageView>
+
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="381dp"
+        android:layout_height="67dp"
+        android:layout_margin="1mm"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ageEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1mm"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/phoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1mm"
+        android:hint="Enter Phone"
+        android:inputType="phone"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/BioEt"
+        android:layout_width="384dp"
+        android:layout_height="69dp"
+        android:layout_margin="1mm"
+        android:hint="Enter a short Bio"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/LocEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1mm"
+        android:hint="Enter your Location"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2mm"/>
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+// Create table command is used to create a table in the DB with the specified name by user
+
+CREATE TABLE Teachers (
+	Name text,
+  	Domain Text,
+  Department text
+ );
+
+
+// Insert into command is used to insert the data into the tables
+// Values command is used to enter the given data into the specific field
+
+insert into Teachers(name,domain,department)
+VALUES ('Sangheetha','Data Mining','CSE');
+
+insert into Teachers(name,domain,department)
+VALUES ('Pradep',' Automobile ','EEE');
+
+insert into Teachers(name,domain,department)
+VALUES ('Francis','Geotechnical','Civil');
+
+insert into Teachers(name,domain,department)
+VALUES ('Chandler','Cloud Security ','IT');
+
+insert into Teachers(name,domain,department)
+VALUES ('Monica','Machine Learning ',' Ai&ds');
+
+insert into Teachers(name,domain,department)
+VALUES ('sathish','Automation','ECE');
+ 
+INSERT INTO Teachers(name,domain,department)
+VALUES ('sheela','Data science','IT');
+        
+INSERT into Teachers (name,domain,department)
+VALUES ('prasath','Automation','Mech');
+
+INSERT INTO Teachers (name ,domain,department)
+VALUES ('Siva kumar','Data structure','CSE');
+
+INSERT INTO Teachers (name,domain,department)
+VALUES ('Mick','Telecommunications','ECE')
+
+// This Command is used to Dispaly the data of the teachers from the CSE departments
+
+SELECT *FROM Teachers WHERE department = 'CSE';
+
+// This command is used to delete the delete the records of the teachers from ECE department
+
+DELETE FROM Teachers WHERE department ='ECE';
+
+
+// Select command is used to dispaly all records in the specific table
+
+SELECT *FROM Teachers;
