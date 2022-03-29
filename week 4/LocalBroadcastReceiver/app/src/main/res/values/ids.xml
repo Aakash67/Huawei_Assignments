@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="startservice" type="id" />
+    <item name="stopservice" type="id" />
+    <item name="msgtosend" type="id" />
+    <item name="send" type="id" />
+    <item name="cntreceived" type="id">\</item>
+    <item name="msgreceived" type="id" />
+</resources>
